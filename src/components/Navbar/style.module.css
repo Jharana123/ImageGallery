@@ -1,0 +1,56 @@
+.navigationBar {
+    background-color: grey;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+      position: "fixed",;
+      top: "0"
+}
+
+.titleContainer{
+    width: 12.2%;
+}
+
+.titleText {
+    font-size: 2.4em;
+    color:wheat;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: unset !important;
+    font-family:  serif;
+}
+
+.SearchField {
+    width: 30%;
+    height: 50%;
+    margin-right: 13%;
+}
+
+.inputField {
+    border-radius: 20px;
+    height: fit-content;
+    width: 100%;
+    padding: 1%;
+    font-size: large;
+}
+
+.sortingMenu {
+    font-size: xx-large;
+    color: white !important;
+}
+
+@media screen and (max-width: 600px) {
+    .titleText {
+        font-size: x-large;
+    }
+    .titleContainer{
+        width: 42%;
+    }
+    .SearchField {
+        margin-left: 13%;
+    }
+  }

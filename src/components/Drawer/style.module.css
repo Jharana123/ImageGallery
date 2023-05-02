@@ -1,0 +1,15 @@
+.imageDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drawerImage {
+    height: 400px;
+    width: 450px;
+    margin-bottom: 3%;
+}
+
+.imageDetails {
+    margin-left: 5%;
+}
